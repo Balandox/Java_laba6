@@ -10,9 +10,9 @@ public class Main {
 
     public static void main (String[] args){
         Object[] values;
-        values = FormattedInput.scanf("%d %s %c %f"); // scanf
+        //values = FormattedInput.scanf( "%d %s %f"); // scanf
 
-        /*Scanner console = new Scanner(System.in);
+        Scanner console = new Scanner(System.in);
         String format = "%d %f %c";
         while(true) {
 
@@ -27,7 +27,7 @@ public class Main {
                 System.out.println(exception.getMessage() + ".Try again");
 
             }
-        }*/
+        }
 
         System.out.println(Arrays.toString(values));
 
